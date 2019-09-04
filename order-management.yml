@@ -7,15 +7,12 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 spring:
   application:
-    name: order-management
-  #zipkin服务所在地址
+    name: order-management 
   zipkin:
-    base-url: http://106.12.192.115:9411/
-  #配置采样百分比,开发环境可以设置为1，表示全部，生产就用默认
+    base-url: http://106.12.192.115:9411/ 
   sleuth:
     sampler:
       probability: 1 
-
 feign:
   hystrix:
     enabled: true
