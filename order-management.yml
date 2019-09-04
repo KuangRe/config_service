@@ -21,3 +21,4 @@ feign:
       default:
         connectTimeout: 2000
         readTimeout: 2000
+env: test
