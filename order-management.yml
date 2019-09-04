@@ -14,11 +14,7 @@ spring:
   #配置采样百分比,开发环境可以设置为1，表示全部，生产就用默认
   sleuth:
     sampler:
-      probability: 1
-# 更改默认策略
-#purchasing-management:
-#  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+      probability: 1 
 
 feign:
   hystrix:
